@@ -11,9 +11,13 @@ module.exports = {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
-  extends: ['plugin:react/recommended'],
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
+  extends: [
+    'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended',
+  ],
   parserOptions: {
-    sourceType: 'module',
     ecmaVersion: 2020,
   },
   settings: {
