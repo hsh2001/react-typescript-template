@@ -1,3 +1,5 @@
 {
+  "labels": ["dependencies"],
+  "rebaseWhen": "conflicted",
   "extends": ["config:base"]
 }
