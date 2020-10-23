@@ -15,8 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "lint": "npx eslint './src/**/*.{js,jsx}'",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint './src/**/*.{js,jsx}'",
+    "prettier": "prettier . --write"
   },
   "eslintConfig": {
     "extends": "react-app"
